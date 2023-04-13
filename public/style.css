@@ -1,0 +1,48 @@
+.imgp{
+    color: red;
+}
+
+body{
+    background-color: #334;
+}
+
+
+.parent{
+padding: 10px;
+margin-left: 370px;
+max-width: 39em;
+}
+.idkkk{
+    background-color: #F55A5A;
+}
+
+.header-text{
+color:  white;
+font-weight: 400;
+}
+
+.cont{
+    display: grid;
+    grid-template-columns: 170px 300px;
+    padding: 20px;
+    
+}
+
+.imga{
+    height: 13em;
+}
+
+.idkk{
+    background-color: #fff;
+    margin-top: 0;
+}
+.header{
+    background-color: #F55A5A;
+    align-items: center;
+    text-align: center;
+    padding: 10px ;
+    margin-bottom: 0;
+    bottom: 0;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}

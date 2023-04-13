@@ -1,11 +1,11 @@
 import React from "react";
-import path from "../img/path.png"
+import path from "../img/lk.png"
 
 function Head() {
     return(
-        <div>
-            <img src={path} alt="path"/>
-        <span>my travel journal</span>
+        <div className="header">
+            <img src={path} className="imgp" alt="path"/>
+        <span className="header-text">my travel journal</span>
         </div>
     )
 }

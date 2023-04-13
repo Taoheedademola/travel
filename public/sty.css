@@ -1,0 +1,76 @@
+*{
+    font-family: monospace;
+}
+
+body{
+    background: #E5E5E5;
+}
+
+.App{
+    width: 600px;
+    margin:20px 400px ;
+}
+.Navber{
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(to right, #672280 1.18%, #A626D3 100%);
+    align-items: center;
+    padding: 20px 10px;
+    color: #ffff;
+}
+
+.imgNav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.NavImg{
+    width: 3.3em;
+    height: 3.3em;
+    margin-right: 5px;
+}
+
+.txt2{
+    font-style:oblique;
+    font-size: 20px;
+}
+
+.form{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.frm{
+    padding: 40px 20px;
+}
+
+
+.btn{
+    width: 500px;
+    margin-top: 20px;
+    padding: 10px 0;
+    background: linear-gradient(100deg, #672280 1.18%, #A626D3 100%);
+    margin:9px 20px;
+    color: #E5E5E5;
+    grid-column: 1/-1;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+input{
+
+    padding: 10px 12px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #D5D4D8;
+    font-family: 'karla', sans-serif;
+    text-indent: 5px;
+}
+
+#Hl{
+    max-width: 41em;
+    margin-left: 20px;
+}
